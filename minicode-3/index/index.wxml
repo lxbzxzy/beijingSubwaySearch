@@ -1,0 +1,7 @@
+<view>
+  <image style="width:750rpx" src="https://mmbiz.qpic.cn/mmbiz_png/icQPHj1lgiaSqIDRibZs9ERwpgTVLd51vPt8cSkL09fgslDJp38qKxAGb70dSSD8K1iaodHUaAUz3r3x7kXQFM9rEw/0?wx_fmt=png" ></image>
+  <input class="input" placeholder="请输入起点站" bindinput="startinput"/>
+  <input class="input" placeholder="请输入终点站" bindinput="endinput" />
+  <button class="button" bindtap="calcRoute">规划路线</button>
+  <view class="intro">{{routeResult}}</view>
+</view>
